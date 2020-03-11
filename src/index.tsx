@@ -4,6 +4,6 @@ import './less/main.less';
 import { Hello } from "./components/Hello";
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <Hello />,
     document.getElementById("main")
 );
