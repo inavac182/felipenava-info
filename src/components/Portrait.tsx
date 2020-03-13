@@ -10,7 +10,7 @@ export const Portrait = () =>
         </div>
         <div className='name-container'>
             <div className='vertical-center'>
-                <h1 className='name lobster'>Felipe Nava</h1>
+                <h1 className='name'>Felipe Nava</h1>
                 <small>Software Engineer at Expedia Group</small>
             </div>
         </div>
