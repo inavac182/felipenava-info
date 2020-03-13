@@ -107,3 +107,6 @@ dist
 
 #firebase
 .firebase/
+
+#mac trash files
+*.DS_Store
