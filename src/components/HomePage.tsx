@@ -1,8 +1,12 @@
 import * as React from "react";
-import { Portrait, MyInfo } from '.';
+import { Portrait, MyInfo, PortraitBackground } from '.';
 
 export const HomePage = () => 
-    <div className='page'>
-        <Portrait />
-        <MyInfo />
+    <div>
+        <PortraitBackground color={'orange'}/>
+        <PortraitBackground />
+        <div className='page'>
+            <Portrait />
+            <MyInfo />
+        </div>
     </div>;
