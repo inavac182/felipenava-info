@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import './less/main.less';
-import { Hello } from "./components/Hello";
+import { HomePage } from "./components/HomePage";
 
 ReactDOM.render(
-    <Hello />,
+    <HomePage />,
     document.getElementById("main")
 );

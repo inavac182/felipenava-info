@@ -20,7 +20,13 @@ module.exports = {
                     'css-loader', 
                     'less-loader'
                 ],
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [ 
+                        'file-loader'
+                    ]
+              }
         ]
     },
     resolve: {
