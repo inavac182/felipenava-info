@@ -5,8 +5,8 @@ export const HomePage = () =>
     <div>
         <PortraitBackground color={'orange'}/>
         <PortraitBackground />
-        <div className='page'>
+        <section className='page'>
             <Portrait />
             <MyInfo />
-        </div>
+        </section>
     </div>;
